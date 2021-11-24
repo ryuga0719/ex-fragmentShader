@@ -1,9 +1,10 @@
+// レンダリング品質の定義
 #ifdef GL_ES
 precision mediump float;
 #endif
 
-uniform float u_time;
-
+// main関数
 void main(){
-  gl_FragColor = vec4(1.0,1.0,0.0,1.0);
+  // 出力する色
+  gl_FragColor = vec4(.8,.1,.7,1.0);
 }
